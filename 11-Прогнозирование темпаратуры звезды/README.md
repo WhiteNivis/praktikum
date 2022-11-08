@@ -36,16 +36,18 @@
 
 ## Общий вывод
 
-Лучшее значение RMSE train (Первоначальная модель)       :  3668.6
-Лучшее значение RMSE test  (Первоначальная модель)       :  5813.54
+|----|----|
 
-Лучшее значение RMSE valid (Измененная модель Вариант 1) :  1078.72
-Лучшее значение RMSE test  (Измененная модель Вариант 1) :  4354.93
+|Лучшее значение RMSE train (Первоначальная модель)| 3668.6 |
+|Лучшее значение RMSE test  (Первоначальная модель)|  5813.54 |
+|Лучшее значение RMSE valid (Измененная модель Вариант 1)| 1078.72 |
+|Лучшее значение RMSE test  (Измененная модель Вариант 1)| 4354.93 |
+|Лучшее значение RMSE train (Измененная модель Вариант 2)| 4689.35 |
+|Лучшее значение RMSE test  (Измененная модель Вариант 2)| 5719.13 |
 
-Лучшее значение RMSE train (Измененная модель Вариант 2) :  4689.35
-Лучшее значение RMSE test  (Измененная модель Вариант 2) :  5719.13
+Параметры лучшей модели:
 
-Параметры лучшей модели: {'module__n_hidden_neurons_2': 10, 'module__n_hidden_neurons_1': 10, 'module__dropout_2': 0, 'module__dropout_1': 0, 'module__activation_3': ELU(alpha=1.0), 'module__activation_2': ReLU(), 'module__activation_1': ELU(alpha=1.0), 'lr': 0.05, 'batch_size': 16}
+{'module__n_hidden_neurons_2': 10, 'module__n_hidden_neurons_1': 10, 'module__dropout_2': 0, 'module__dropout_1': 0, 'module__activation_3': ELU(alpha=1.0), 'module__activation_2': ReLU(), 'module__activation_1': ELU(alpha=1.0), 'lr': 0.05, 'batch_size': 16}
 
 
 Изменения в модели (Вариант 1):
