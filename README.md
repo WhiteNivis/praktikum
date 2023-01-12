@@ -1,4 +1,4 @@
-# Учебные проекты 
+# Проекты 
 
 Учебные проекты в рамках курса ["Специалист по Data Science плюс"](https://praktikum.yandex.ru/profile/data-scientist-plus/)  в Яндекс.Практикум.  
   
